@@ -1,19 +1,12 @@
 
-//ADD YOUR FIREBASE LINKS HERE
-var firebaseConfig = {
-      apiKey: "AIzaSyAiQp34f4OenZcLxVbnaG60ghb65Xw6BhY",
-      authDomain: "kwitter-a1793.firebaseapp.com",
-      projectId: "kwitter-a1793",
-      storageBucket: "kwitter-a1793.appspot.com",
-      messagingSenderId: "58473614065",
-      appId: "1:58473614065:web:5545b91b6e1be4aaf53750"
+ // Your web app's Firebase configuration
+ var firebaseConfig = {
+      apiKey: "AIzaSyB1zckL9KUyiABPA44wy0taFxA5KBg9XCQ",
+      authDomain: "let-s-chat-9f268.firebaseapp.com",
+      projectId: "let-s-chat-9f268",
+      storageBucket: "let-s-chat-9f268.appspot.com",
+      messagingSenderId: "463541541198",
+      appId: "1:463541541198:web:719572537b45d70ddb661f"
     };
     // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-function getData() {firebase.database().ref("/").on('value', function(snapshot) {document.getElementById("output").innerHTML = "";snapshot.forEach(function(childSnapshot) {childKey  = childSnapshot.key;
-       Room_names = childKey;
-      //Start code
-
-      //End code
-      });});}
-getData();
+    
